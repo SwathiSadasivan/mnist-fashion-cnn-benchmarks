@@ -1,0 +1,27 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data directories (Never commit local datasets)
+data/
+*.csv
+*.ubyte
+*.gz
+
+# Model weights & logs
+*.pth
+*.pt
+*.h5
+.azureml/
+outputs/
+logs/
+
+# System & Editor files
+.DS_Store
+.vscode/
+.ipynb_checkpoints
