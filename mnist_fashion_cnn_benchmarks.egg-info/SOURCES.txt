@@ -1,0 +1,14 @@
+pyproject.toml
+mnist_fashion_cnn_benchmarks.egg-info/PKG-INFO
+mnist_fashion_cnn_benchmarks.egg-info/SOURCES.txt
+mnist_fashion_cnn_benchmarks.egg-info/dependency_links.txt
+mnist_fashion_cnn_benchmarks.egg-info/top_level.txt
+src/__init__.py
+src/dataset.py
+src/evaluate.py
+src/train.py
+src/models/__init__.py
+src/models/baselines.py
+src/models/cnn.py
+tests/__init__.py
+tests/test_models.py

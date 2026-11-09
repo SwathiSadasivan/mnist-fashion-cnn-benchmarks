@@ -1,0 +1,7 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+code: .
+command: pip install "numpy<2.0.0" scikit-learn seaborn -e . && python3 src/train.py --dataset fashion_mnist --optimizer adam --lr 0.001 --epochs 10
+environment: azureml:AzureML-acpt-pytorch-2.2-cuda12.1@latest
+compute: azure-cpu-cluster
+experiment_name: fashion-mnist-cnn-benchmarks
+display_name: PyTorch-Adam-FashionMNIST-CloudRun
